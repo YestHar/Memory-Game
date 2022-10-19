@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Memory Game</h1>
+        <div class="container" id="container">
+            <div id="settings">
+                <h2>Settings</h2>
+                <h3>Category</h3>
+                <div id="category">
+                    <div class="abstract">
+                        <input type="radio" name="category" value="abstract" >
+                        <h4>abstract</h4>
+                    </div>
+                    <div class="people">
+                        <input type="radio" name="category" value="people">
+                        <h4>people</h4>
+                    </div>
+                    <div class="animals">
+                        <input type="radio" name="category" value="animals">
+                        <h4>animals</h4>
+                    </div>
+                    <div class="nature">
+                        <input type="radio" name="category" value="nature">
+                        <h4>nature</h4>
+                    </div>
+                </div>
+                <h3>Amount of cards</h3>
+                <div class="card-count" id="card-count">
+                    <button value="-" id="button">-</button>
+                    <div id="count">0</div>
+                    <button value="+" id="button">+</button>
+                </div>
+                <div class="footer">
+                    <button type="submit" id="start" >Start</button>
+                </div>
+                
+            </div>
+                
+    
+        </div>
+        <div class="cards" id="cards"></div>
+
+
+
+     
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
